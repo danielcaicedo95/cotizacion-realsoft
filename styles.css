@@ -1,0 +1,201 @@
+/* Agrega este bloque de estilos en tu archivo styles.css */
+
+/* Estilos generales para la tabla de precios */
+#prices table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+#prices th, #prices td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+
+#prices th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+#prices tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#prices tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+#prices tfoot {
+    font-weight: bold;
+}
+
+/* Estilos específicos para la presentación */
+.presentation {
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.slide {
+    padding: 40px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.subtitle {
+    color: #555;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    background-color: #f8f8f8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Estilos para los servicios de marketing */
+#services ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+#services li {
+    background-color: #d5eeff;
+    color: #000000;
+    border: 2px solid #2980b9;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    text-align: left;
+    width: calc(33.333% - 20px); /* Ajusta según la cantidad de servicios que desees en una fila */
+    box-sizing: border-box;
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+    font-family: Arial, sans-serif;
+}
+
+#services li:hover {
+    background-color: #9dcae8; /* Cambia el color al pasar el cursor */
+}
+
+/* Estilos adicionales para hacer los servicios responsivos */
+@media (max-width: 768px) {
+    #services li {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    #services li {
+        width: 100%;
+    }
+}
+
+/* Estilos adicionales para la portada */
+.cover-container {
+    border: 2px solid lightblue; /* Borde azul claro delgado */
+    border-radius: 10%;
+    transition: all 0.3s ease; /* Transición suave al cambiar el estilo */
+    background-image: url("figuras.png"); /* Fondo con figuras */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif; /* Estilo de letra profesional */
+}
+
+.cover-container:hover {
+    box-shadow: 0 0 10px lightblue; /* Iluminación azul claro al pasar el cursor */
+}
+
+.cover-text h1, .cover-text .subtitle {
+    color: #333; /* Color de texto oscuro para contraste */
+}
+
+.cover-text .subtitle {
+    opacity: 0.7; /* Hacer el subtítulo un poco transparente */
+}
+
+.datos {
+    border: 2px solid lightblue; /* Borde azul claro delgado */
+    transition: all 0.3s ease; /* Transición suave al cambiar el estilo */
+    background-color: #f9f9f9; /* Fondo claro */
+    padding: 20px; /* Espaciado interno */
+    font-family: Arial, sans-serif; /* Estilo de letra profesional */
+    color: #333; /* Color de texto oscuro para contraste */
+}
+
+.datos:hover {
+    box-shadow: 0 0 10px lightblue; /* Iluminación azul claro al pasar el cursor */
+}
+
+.datos h2 {
+    margin-bottom: 20px; /* Espaciado debajo del título */
+}
+
+.datos p {
+    margin-bottom: 10px; /* Espaciado debajo de cada párrafo */
+}
+
+.datos a {
+    color: blue; /* Color de los enlaces */
+    text-decoration: none; /* Remover subrayado de los enlaces */
+}
+
+.datos a:hover {
+    text-decoration: underline; /* Subrayar enlaces al pasar el cursor */
+}
+
+.precios-1 {
+    border: 2px solid lightblue; /* Borde azul claro delgado */
+    border-radius: 10px;
+    transition: all 0.3s ease; /* Transición suave al cambiar el estilo */
+    background-color: #f9f9f9; /* Fondo claro */
+    padding: 20px; /* Espaciado interno */
+    font-family: Arial, sans-serif; /* Estilo de letra profesional */
+    color: #333; /* Color de texto oscuro para contraste */
+}
+
+.precios-1:hover {
+    box-shadow: 0 0 10px lightblue; /* Iluminación azul claro al pasar el cursor */
+}
+
+.precios-1 h2 {
+    margin-bottom: 20px; /* Espaciado debajo del título */
+}
+
+.precios-1 p {
+    margin-bottom: 10px; /* Espaciado debajo de cada párrafo */
+}
+
+.precios-1 table {
+    width: 100%; /* Ancho completo */
+    border-collapse: collapse; /* Eliminar espacios entre celdas */
+}
+
+.precios-1 th, .precios-1 td {
+    border: 1px solid #ddd; /* Borde alrededor de las celdas */
+    padding: 10px; /* Espaciado interno en las celdas */
+}
+
+.precios-1 th {
+    background-color: lightblue; /* Fondo azul claro para los encabezados */
+    color: white; /* Texto blanco para los encabezados */
+}
